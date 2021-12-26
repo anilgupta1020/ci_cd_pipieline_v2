@@ -17,4 +17,4 @@ jobs:
           script: |
             cd /var/www/html/ci_cd/ci_cd_pipieline_v2
             git pull origin main
-            echo 'Deployment successful to digital ocean
+            echo Deployment successful to digital ocean
