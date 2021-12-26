@@ -14,7 +14,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            mkdir /var/www/html/ci_cd 
-            cd /var/www/html/ci_cd 
-            git clone git@github.com:anilgupta1020/ci_cd_pipieline_v2.git
+            cd /var/www/html/ci_cd/ci_cd_pipieline_v2
+            git pull origin main
             echo 'Deployment successful to digital ocean
